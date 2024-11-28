@@ -45,9 +45,9 @@
 فهم الأنواع الشائعة من ثغرات التحقق من صحة البيانات
 فهم الآثار المحتملة لهذه الأنواع من الثغرات
 فهم آليات عمل هذه الثغرات
-فهم كيفية منع ثغرات هذه بشكل عام&lt;/p></description></item><item><title>Data Validation</title><link>https://infusedev.safetag.org/ar/learning-path/5/module-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/5/module-2/</guid><description>&lt;h2 id="use-case">Use Case&lt;/h2>
+فهم كيفية منع ثغرات هذه بشكل عام&lt;/p></description></item><item><title>Data Validation</title><link>https://infusedev.safetag.org/ar/learning-path/5/module-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/5/module-2/</guid><description>&lt;h2 id="حالة-استخدام">حالة استخدام&lt;/h2>
 &lt;p>One way or another, every web application accepts and processes untrusted input. This input usually comes from end users and their browsers but may also come from other websites or backend systems. Depending on where this information flows, the processing of the data may have undesirable effects on the website or its users.&lt;/p>
-&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;h2 id="الأهداف">الأهداف&lt;/h2>
 &lt;p>After completing this subtopic, practitioners will be able to find ways that the format or structure of the data sent to a website may expose and exploit vulnerabilities.&lt;/p></description></item><item><title>Interpersonal Skills for Malicious Infrastructure/Phishing Response</title><link>https://infusedev.safetag.org/ar/learning-path/1/module-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/1/module-2/</guid><description>&lt;h2 id="حالة-استخدام">حالة استخدام&lt;/h2>
 &lt;p>في كل حالة تدخل أو دعم تقريبًا، سيعمل الممارسون مباشرة مع الأشخاص المتضررين من هجوم أو محاولة هجوم، وغالبًا ما تكون هذه تجربة مرهقة ومثيرة للقلق بالنسبة للأشخاص المستهدفين، ويجب على كل ممارس معرفة كيفية التخفيف من هذه الضغوط.&lt;/p>
 &lt;h2 id="الأهداف">الأهداف&lt;/h2>
