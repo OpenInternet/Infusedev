@@ -44,25 +44,25 @@
 &lt;hr>
 &lt;h2 id="العرض">العرض&lt;/h2>
 &lt;h3 id="المعرفة-الأساسية">المعرفة الأساسية&lt;/h3>
-&lt;p>يُعدّ التخويل عملية تأكد من أن مستخدم النظام لديه إذن لتنفيذ إجراء أو إنشاء/قراءة/تحرير/حذف جزء من البيانات في هذا النظام ومنع هذه الإجراءات إذا لم يكن لدى المستخدم إذن، وبشكل عام هذه هي أبسط أنواع الضوابط الأمنية التي يجب تنفيذها وأبسط أنواع الثغرات الأمنية التي يمكن العثور عليها. ومع ذلك على الرغم من بساطتها من الناحية المفاهيمية إلا أن تأمين عناصر التحكم وتفكيكها بشكل عام ممل للغاية وعرضة للخطأ.&lt;/p></description></item><item><title>Application Logic</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-5/</guid><description>&lt;h2 id="use-case">Use Case&lt;/h2>
-&lt;p>In any interactive website that puts constraints on the types of actions that users can perform, it’s important that the site properly enforces those constraints to prevent unintended (and potentially) damaging actions by malicious users.&lt;/p>
-&lt;h2 id="objectives">Objectives&lt;/h2>
-&lt;p>After completing this subtopic, practitioners should be able to do the following:&lt;/p>
+&lt;p>يُعدّ التخويل عملية تأكد من أن مستخدم النظام لديه إذن لتنفيذ إجراء أو إنشاء/قراءة/تحرير/حذف جزء من البيانات في هذا النظام ومنع هذه الإجراءات إذا لم يكن لدى المستخدم إذن، وبشكل عام هذه هي أبسط أنواع الضوابط الأمنية التي يجب تنفيذها وأبسط أنواع الثغرات الأمنية التي يمكن العثور عليها. ومع ذلك على الرغم من بساطتها من الناحية المفاهيمية إلا أن تأمين عناصر التحكم وتفكيكها بشكل عام ممل للغاية وعرضة للخطأ.&lt;/p></description></item><item><title>منطق التطبيق</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-5/</guid><description>&lt;h2 id="حالة-استخدام">حالة استخدام&lt;/h2>
+&lt;p>في أي موقع ويب تفاعلي يضع قيودًا على أنواع الإجراءات التي يمكن للمستخدمين تنفيذها، من المهم أن يفرض الموقع هذه القيود بشكل صحيح لمنع الإجراءات الضارة غير المقصودة (والمحتملة) من قبل المستخدمين الخبيثين.&lt;/p>
+&lt;h2 id="الأهداف">الأهداف&lt;/h2>
+&lt;p>بعد استكمال هذا الموضوع الفرعي، يجب أن يكون الممارسون قادرين على القيام بما يلي:&lt;/p>
 &lt;ul>
-&lt;li>Understand the concept of application logic vulnerabilities&lt;/li>
-&lt;li>Identify and understand common subclasses of application logic vulnerabilities, including:
+&lt;li>فهم مفهوم الثغرات المنطقية في التطبيقات&lt;/li>
+&lt;li>تحديد وفهم الفئات الفرعية الشائعة لثغرات منطق التطبيق بما في ذلك:
 &lt;ul>
-&lt;li>Client-side controls&lt;/li>
-&lt;li>Lack of rate limiting/multiple submissions&lt;/li>
-&lt;li>Rounding inconsistencies&lt;/li>
-&lt;li>Skipping process steps&lt;/li>
-&lt;li>Cross-site request forgery&lt;/li>
+&lt;li>الضوابط من جانب العميل&lt;/li>
+&lt;li>عدم وجود حد لمعدل/تقديم طلبات متعددة&lt;/li>
+&lt;li>تضاربات التقريب&lt;/li>
+&lt;li>تجاوز خطوات العملية&lt;/li>
+&lt;li>تزييف الطلبات عبر المواقع&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="main-section">Main Section&lt;/h2>
-&lt;p>Application logic vulnerabilities (frequently called business logic vulnerabilities) are a loosely assembled class of vulnerabilities that relate to the processes that the application itself performs, as opposed to underlying vulnerabilities in the technologies that the application uses. If this definition is confusing to you, you’re in good company. What constitutes a business logic vulnerability vs some other class is hotly contested. Infuse takes the position that the actual definition doesn’t matter that much, and that expediency is more important than precise definitions. We encourage you to maintain a focus on the vulnerabilities themselves, develop a view of vulnerability classes that makes sense to you, and maintain flexibility in taxonomy when discussing vulnerabilities with others.&lt;/p></description></item><item><title>Interpersonal Skills for Web Application Security</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-6/</guid><description>&lt;h2 id="use-case">Use Case&lt;/h2>
+&lt;p>تُعدّ ثغرات منطق التطبيق (تسمى في كثير من الأحيان ثغرات منطق الأعمال) فئة من الثغرات المجمّعة على نطاق واسع والتي تتعلق بالعمليات التي يقوم بها التطبيق نفسه على عكس ثغرات الأساسية في التقنيات التي يستخدمها التطبيق. إذا شعرت بأن هذا التعريف مربك فلست الوحيد لأن ما يشكل ثغرة في منطق الأعمال مقابل فئة أخرى هو موضع نزاع محتدم. يتمثل موقف إنفيوز (Infuse) بأن التعريف الفعلي لا يهم كثيرًا وأن السرعة أكثر أهمية من التعريفات الدقيقة ونشجعك على الحفاظ على التركيز على ثغرات نفسها وتطوير رؤية لفئات الثغرات التي تكون منطقية بالنسبة لك والحفاظ على المرونة في التصنيف عند مناقشة الثغرات مع الآخرين.&lt;/p></description></item><item><title>Interpersonal Skills for Web Application Security</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-6/</guid><description>&lt;h2 id="use-case">Use Case&lt;/h2>
 &lt;p>When interacting with individuals and organizations who operate web applications, self-awareness is necessary to check the nature of the digital protector relationship, provide useful and not fear-mongering advice or services. It is critical to frame your technical work within a sound risk assessment of the reality of the web application and its users.&lt;/p>
 &lt;h2 id="objectives">Objectives&lt;/h2>
 &lt;p>After completing this subtopic, practitioners should be able to do the following:&lt;/p>
