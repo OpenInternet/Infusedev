@@ -62,17 +62,17 @@
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="العرض">العرض&lt;/h2>
-&lt;p>تُعدّ ثغرات منطق التطبيق (تسمى في كثير من الأحيان ثغرات منطق الأعمال) فئة من الثغرات المجمّعة على نطاق واسع والتي تتعلق بالعمليات التي يقوم بها التطبيق نفسه على عكس ثغرات الأساسية في التقنيات التي يستخدمها التطبيق. إذا شعرت بأن هذا التعريف مربك فلست الوحيد لأن ما يشكل ثغرة في منطق الأعمال مقابل فئة أخرى هو موضع نزاع محتدم. يتمثل موقف إنفيوز (Infuse) بأن التعريف الفعلي لا يهم كثيرًا وأن السرعة أكثر أهمية من التعريفات الدقيقة ونشجعك على الحفاظ على التركيز على ثغرات نفسها وتطوير رؤية لفئات الثغرات التي تكون منطقية بالنسبة لك والحفاظ على المرونة في التصنيف عند مناقشة الثغرات مع الآخرين.&lt;/p></description></item><item><title>Interpersonal Skills for Web Application Security</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-6/</guid><description>&lt;h2 id="use-case">Use Case&lt;/h2>
-&lt;p>When interacting with individuals and organizations who operate web applications, self-awareness is necessary to check the nature of the digital protector relationship, provide useful and not fear-mongering advice or services. It is critical to frame your technical work within a sound risk assessment of the reality of the web application and its users.&lt;/p>
-&lt;h2 id="objectives">Objectives&lt;/h2>
-&lt;p>After completing this subtopic, practitioners should be able to do the following:&lt;/p>
+&lt;p>تُعدّ ثغرات منطق التطبيق (تسمى في كثير من الأحيان ثغرات منطق الأعمال) فئة من الثغرات المجمّعة على نطاق واسع والتي تتعلق بالعمليات التي يقوم بها التطبيق نفسه على عكس ثغرات الأساسية في التقنيات التي يستخدمها التطبيق. إذا شعرت بأن هذا التعريف مربك فلست الوحيد لأن ما يشكل ثغرة في منطق الأعمال مقابل فئة أخرى هو موضع نزاع محتدم. يتمثل موقف إنفيوز (Infuse) بأن التعريف الفعلي لا يهم كثيرًا وأن السرعة أكثر أهمية من التعريفات الدقيقة ونشجعك على الحفاظ على التركيز على ثغرات نفسها وتطوير رؤية لفئات الثغرات التي تكون منطقية بالنسبة لك والحفاظ على المرونة في التصنيف عند مناقشة الثغرات مع الآخرين.&lt;/p></description></item><item><title>المهارات الشخصية لأمن تطبيقات الويب</title><link>https://infusedev.safetag.org/ar/learning-path/4/module-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infusedev.safetag.org/ar/learning-path/4/module-6/</guid><description>&lt;h2 id="حالة-استخدام">حالة استخدام&lt;/h2>
+&lt;p>عند التفاعل مع الأفراد والمنظمات الذين يقومون بتشغيل تطبيقات الويب يكون الوعي الذاتي ضروريًا للتحقق من طبيعة علاقة المدافع الرقمي وتقديم نصائح أو خدمات مفيدة وليست مثيرة للخوف، ومن الأهمية بمكان تأطير عملك الفني ضمن تقييم سليم للمخاطر لواقع تطبيق الويب ومستخدميه.&lt;/p>
+&lt;h2 id="الأهداف">الأهداف&lt;/h2>
+&lt;p>بعد استكمال هذا الموضوع الفرعي، يجب أن يكون الممارسون قادرين على القيام بما يلي:&lt;/p>
 &lt;ul>
-&lt;li>Self reflect on the digital protector relationship with a client within web application assessment work and reporting&lt;/li>
-&lt;li>Simplify and filter findings and explain them in a way which makes sense to the needs and threat models of the organization and its stakeholders&lt;/li>
-&lt;li>Maintain an awareness of the limits of your own knowledge and ability&lt;/li>
-&lt;li>Communicate in a non fear-mongering way about vulnerabilities and weaknesses&lt;/li>
-&lt;li>Conduct a broader risk analysis of a web application based on the political, social, economic, and technical realities which surround it.&lt;/li>
+&lt;li>التفكير الذاتي في علاقة المدافع الرقمي مع العميل ضمن أعمال تقييم تطبيقات الويب وإعداد التقارير&lt;/li>
+&lt;li>تبسيط النتائج وتصفيتها وشرحها بطريقة منطقية لاحتياجات المنظمة ونماذج التهديد الخاصة بها وأصحاب المصلحة فيها&lt;/li>
+&lt;li>الحفاظ على الوعي بحدود معرفتك وقدرتك&lt;/li>
+&lt;li>التواصل بطريقة لا تتسبب بالتخويف حول الثغرات والضعف&lt;/li>
+&lt;li>إجراء تحليل أوسع للمخاطر لتطبيق ويب بناءً على الحقائق السياسية والاجتماعية والاقتصادية والتقنية المحيطة به.&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="main-section">Main Section&lt;/h2>
-&lt;p>Your work in web application security assessment must remain contextualized within the frame of the organization which operates or hosts the application, the people who utilize it (and of their devices), the interpersonal relationships you have with these people, the nature of the web application itself, the data stored or processed on it, the legal realities which prevail over the application, and a solid risk assessment of all these elements. Let’s unpack these elements and consider a self-critique of your role as a digital protector.&lt;/p></description></item></channel></rss>
+&lt;h2 id="العرض">العرض&lt;/h2>
+&lt;p>يجب أن يظل عملك في تقييم أمان تطبيقات الويب في سياقه ضمن إطار المنظمة التي تدير التطبيق أو تستضيفه والأشخاص الذين يستخدمونه (وأجهزتهم)، والعلاقات الشخصية التي تربطك بهؤلاء الأشخاص، وطبيعة تطبيق الويب نفسه، والبيانات المخزنة أو المعالجة عليه، والحقائق القانونية التي تسود على التطبيق وتقييم قوي للمخاطر لجميع هذه العناصر. وسنحلل هذه العناصر ونفكر في النقد الذاتي لدورك بصفتك مدافعًا رقميًا.&lt;/p></description></item></channel></rss>
